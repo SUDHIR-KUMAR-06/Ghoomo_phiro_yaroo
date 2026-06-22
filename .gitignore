@@ -28,4 +28,3 @@ build/
 .coverage
 .pytest_cache/
 
-backend/
