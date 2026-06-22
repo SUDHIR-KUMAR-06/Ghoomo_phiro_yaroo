@@ -1,4 +1,5 @@
 import ImagePlaceholder from "./ImagePlaceholder";
+import image1 from "../assets/images/image1.jpeg";
 
 function HeroSection() {
   return (
@@ -40,7 +41,7 @@ function HeroSection() {
           </div>
 
           <div className="hero-visual reveal">
-            <ImagePlaceholder label="image1" className="hero-image" />
+            <ImagePlaceholder  src={image1} label="image1" className="hero-image" />
             <div className="floating-card float-a">
               <strong>12+ Curated Routes</strong>
               <span>From weekend escapes to high-altitude classics</span>

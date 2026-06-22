@@ -14,14 +14,14 @@ import "../styles/landing-page.css";
 import "../styles/landing-page-responsive.css";
 
 const trekCards = [
-  { badge: "Featured", name: "Hampta Pass Trek", duration: "5 Days", altitude: "14,100 ft", difficulty: "Moderate", region: "Manali" },
+  { badge: "Featured", name: "YulaKanda Trek", duration: "5 Days", altitude: "12,778 ft", difficulty: "Moderate", region: "Kinnaur" },
   { badge: "Popular", name: "Triund Summit Escape", duration: "2 Days", altitude: "9,350 ft", difficulty: "Easy", region: "Dharamshala" },
   { badge: "High Demand", name: "Sar Pass Expedition", duration: "5 Days", altitude: "13,800 ft", difficulty: "Moderate", region: "Kasol" },
   { badge: "Premium", name: "Spiti Valley Traverse", duration: "8 Days", altitude: "15,000 ft", difficulty: "Moderate+", region: "Spiti" },
 ];
 
 const departures = [
-  { day: "01", month: "Jun 2026", name: "Hampta Pass Trek", description: "Valley-to-pass crossover with cinematic campsites, alpine transitions, and signature early-season demand.", tags: ["Moderate", "5 Days", "Manali"] },
+  { day: "01", month: "Jun 2026", name: "YulaKanda Trek", description: "Valley-to-pass crossover with cinematic campsites, alpine transitions, and signature early-season demand.", tags: ["Moderate", "5 Days", "Kinnaur"] },
   { day: "14", month: "Jun 2026", name: "Triund Summit Escape", description: "Beginner-friendly route with high visual reward, ideal for new trekkers wanting a premium first climb.", tags: ["Easy", "2 Days", "Dharamshala"] },
   { day: "28", month: "Jun 2026", name: "Sar Pass Expedition", description: "Forest gradients, snow crossings, and bold group energy for trekkers ready to step beyond the basics.", tags: ["Moderate", "5 Days", "Kasol"] },
   { day: "12", month: "Jul 2026", name: "Spiti Valley Traverse", description: "High-altitude road-and-trail storytelling with monastery landscapes, stark terrain, and premium batch pacing.", tags: ["Moderate+", "8 Days", "Spiti"] },

@@ -1,7 +1,7 @@
-function ImagePlaceholder({ label, className = "" }) {
+function ImagePlaceholder({ src,label, className = "" }) {
   return (
     <div className={`placeholder ${className}`.trim()} role="img" aria-label={label}>
-      <span>{label}</span>
+      <img src={src} alt={label} className={className}/>
     </div>
   );
 }
